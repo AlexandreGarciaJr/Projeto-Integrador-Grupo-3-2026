@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maonamassa – Detalhe do Serviço</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="app-wrapper">
+
+    <!-- HERO DINÂMICO -->
+    <div class="detail-hero" id="detail-hero">
+      <button class="btn-back" onclick="history.back()">← Voltar</button>
+      <div class="detail-icon" id="detalhe-icone">⚒️</div>
+      <h1 id="detalhe-titulo">Carregando...</h1>
+      <span class="badge-hero" id="detalhe-categoria">—</span>
+    </div>
+
+    <!-- CORPO -->
+    <div class="detail-body" id="detail-body" style="display:none;">
+
+      <!-- Preço -->
+      <div class="detail-price-box">
+        <div>
+          <div class="detail-price-label">Valor do serviço</div>
+          <div class="detail-price-value" id="detalhe-valor">R$ —</div>
+        </div>
+        <div style="font-size:32px;">💰</div>
+      </div>
+
+      <!-- Tipo de serviço -->
+      <div class="detail-info-block">
+        <h3>Tipo de Serviço</h3>
+        <p id="detalhe-tipo">—</p>
+      </div>
+
+      <!-- Descrição -->
+      <div class="detail-info-block">
+        <h3>Descrição</h3>
+        <p id="detalhe-descricao">—</p>
+      </div>
+
+      <!-- Prestador -->
+      <div class="detail-info-block">
+        <h3>Prestador</h3>
+        <div class="provider-row">
+          <div class="pro-avatar">👷</div>
+          <div>
+            <div class="pro-name" id="detalhe-prestador-nome">—</div>
+            <div class="pro-role" id="detalhe-prestador-espec">—</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Botão Contratar (demonstrativo) -->
+      <div class="sticky-btn">
+        <button class="btn btn-primary" onclick="contratar()">
+          ✅ Contratar Serviço
+        </button>
+      </div>
+
+      <!-- Nota demonstrativa -->
+      <p style="text-align:center; font-size:11px; color:var(--text-muted); margin-top:12px;">
+        * Funcionalidade de contratação em desenvolvimento
+      </p>
+
+    </div>
+
+    <!-- Estado de carregamento -->
+    <div id="loading-state" class="loader">Carregando detalhes...</div>
+    <div id="error-state" class="empty-state" style="display:none;">
+      <div class="empty-icon">😕</div>
+      <p>Serviço não encontrado.</p>
+      <a href="servicos.html" class="btn btn-primary"
+        style="margin-top:16px; display:inline-block; padding:12px 24px; border-radius:30px;">
+        Ver todos os serviços
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Modal de contratação -->
+  <div id="modal-contratar"
+    style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:200; align-items:center; justify-content:center; padding:20px;">
+    <div
+      style="background:white; border-radius:20px; padding:32px 24px; max-width:380px; width:100%; text-align:center;">
+      <div style="font-size:52px; margin-bottom:12px;">🎉</div>
+      <h2 style="font-size:18px; font-weight:700; margin-bottom:8px;">Solicitação Enviada!</h2>
+      <p style="font-size:13px; color:var(--text-muted); margin-bottom:24px; line-height:1.6;">
+        Em breve o prestador entrará em contato com você. Esta é uma demonstração do fluxo de contratação.
+      </p>
+      <button class="btn btn-primary" onclick="fecharModal()">Entendido!</button>
+      <a href="servicos.html"
+        style="display:block; margin-top:12px; font-size:13px; color:var(--primary); font-weight:500;">
+        Ver outros serviços
+      </a>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/detalheservico.js"></script>
+
+</body>
+
+</html>
