@@ -116,14 +116,13 @@ O arquivo `banco.sql` já insere alguns dados de demonstração:
 
 ##  Equipe — Grupo 03
 
+- Airon Azevedo Bispo Valentim
+- Anderson José Alves
 - Alexandre Garcia de Oliveira Junior
-- Anderson Jose Alves
+- Guilherme Moreno Casagrande
+- Gustavo Ferraz Carvalho
 - Maycon Leite Ribeiro
-- Gabriel Mororo dos Santos
-- Ryan Rodrigues Ryan
-- Gustavo Willian Batista de Oliveira
-- Jorge Daniel Delgado Jara
-- Verônica Garcia
+- Pâmela Araujo Cimirro Rosa
 
 ---
 
