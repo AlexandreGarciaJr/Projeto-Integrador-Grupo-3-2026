@@ -114,7 +114,7 @@ O arquivo `banco.sql` já insere alguns dados de demonstração:
 
 ---
 
-##  Equipe — Grupo 08
+##  Equipe — Grupo 03
 
 - Alexandre Garcia de Oliveira Junior
 - Anderson Jose Alves
