@@ -106,14 +106,6 @@ maonamassa/
 
 ---
 
-##  Dados de exemplo
-
-O arquivo `banco.sql` já insere alguns dados de demonstração:
-- **Prestadores:** Adeilson (Elétrica) e Joana (Hidráulica)
-- **Serviços:** 4 serviços cadastrados
-
----
-
 ##  Equipe — Grupo 03
 
 - Airon Azevedo Bispo Valentim
