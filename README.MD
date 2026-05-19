@@ -19,7 +19,7 @@ Plataforma para conectar clientes a prestadores de serviços como eletricistas, 
 
 - **Frontend:** [Clique para visualizar a interface do app](https://alexandregarciajr.github.io/Projeto-Integrador-Grupo-3-2026/)
 - **Video demonstração:** <br>
-<video src="./assets/videos/maonamassa3.mp4.mp4" controls width="600px"></video>
+[![Assistir demonstração](https://img.youtube.com/vi/7tC0I_KD4mw/maxresdefault.jpg)](https://www.youtube.com/watch?v=7tC0I_KD4mw)
 
 ---
 
